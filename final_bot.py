@@ -38,4 +38,7 @@ async def password(ctx):
 @bot.command()
 async def fact(ctx):
     await ctx.send(random_fact())
+@bot.command()
+async def duck(ctx):
+    await ctx.send(get_duck_image_url())
 bot.run("TOKEN")
