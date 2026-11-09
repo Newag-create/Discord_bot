@@ -4,6 +4,7 @@ from bot_logic import coin_toss
 from bot_logic import gen_pas
 from bot_logic import emoi
 from bot_logic import random_fact
+from bot_logic import get_duck_image_url
 intents = discord.Intents.default()
 intents.message_content = True
 
