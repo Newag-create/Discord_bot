@@ -9,7 +9,7 @@ def gen_pas(pass_length):
 
     return password
 def coin_toss():
-    coin = ["orzeł | eagle", "reszka | tails"]
+    coin = ["Co wypadło: orzeł | What came out: eagle", "Co wypadło: reszka | What came out: tails"]
     toss = random.choice(coin)
     print(toss)
     return toss 
