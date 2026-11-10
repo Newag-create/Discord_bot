@@ -29,7 +29,7 @@ async def on_ready():
             'I can also draw something about climate changes (what they are, what their causes are, what can we do about them). Just type $fact')
 @bot.command()
 async def toss(ctx):
-    await ctx.send("Co wypadło|What came out: " + coin_toss())
+    await ctx.send(coin_toss())
 @bot.command()
 async def emoj(ctx):
     await ctx.send(emoi())
